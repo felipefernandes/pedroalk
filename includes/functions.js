@@ -34,6 +34,7 @@ $('document').ready(function () {
 		opacity: 0.7, /* Value betwee 0 and 1 */
 		showTitle: false /* true/false */			
 	});		
+	
 		
 });
 

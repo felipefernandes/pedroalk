@@ -26,9 +26,11 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/includes/nivo-slider.css" type="text/css" media="screen" charset="utf-8" />
 
 <!-- javascripts --> 
 <script src="<?php bloginfo('template_url'); ?>/includes/jquery-1.4.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="<?php bloginfo('template_url'); ?>/includes/jquery.nivo.slider.pack.js" type="text/javascript" charset="utf-8"></script>
 <script src="<?php bloginfo('template_url'); ?>/includes/jquery.jcarousel.js" type="text/javascript" charset="utf-8"></script>
 <script src="<?php bloginfo('template_url'); ?>/includes/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 <script src="<?php bloginfo('template_url'); ?>/includes/functions.js" type="text/javascript" charset="utf-8"></script>

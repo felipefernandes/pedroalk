@@ -155,13 +155,24 @@ filter: dropshadow(color=#6d6d6d, offx=-1, offy=-1);*/
 
 
 #job-inside { margin-top: -20px; }
-#job-inside .placeholder { float:left; margin-right:34px; -webkit-box-shadow: 1px 1px 1px 0 #6d6d6d; -moz-box-shadow: 1px 1px 1px 0px #6d6d6d; box-shadow: 1px 1px 1px 0 #6d6d6d;} 
+#job-inside .placeholder { width: 416px; height: 353px; float:left; margin-right:34px; -webkit-box-shadow: 1px 1px 1px 0 #6d6d6d; -moz-box-shadow: 1px 1px 1px 0px #6d6d6d; box-shadow: 1px 1px 1px 0 #6d6d6d;} 
 #job-inside .infos { font-size:14px; }
 #job-inside .infos strong { font-family:"Torque-Bold"; }
 
 #job-inside #fechar a { display:block; height:28px; width:30px; line-height: 28px; background-color:#F7CA2F; text-align:center; color: white; float: right;
 margin-top: -32px; -webkit-box-shadow: 1px 1px 1px 0 #6d6d6d; -moz-box-shadow: 1px 1px 1px 0px #6d6d6d; box-shadow: 1px 1px 1px 0 #6d6d6d; }
 
+.job_galeria { position:relative; width: 416px; height: 353px; background:url('images/ajax-loader.gif') no-repeat 50% 50%; }
+.job_galeria img { position:absolute; top:0px; left:0px; display:none; }
+.job_galeria a { border:0; display:block; }
+
+.job_galeria .nivo-controlNav { position: absolute; margin-top:363px; }
+.job_galeria .nivo-controlNav img { width:20px; height:20px; }
+.job_galeria .nivo-controlNav a { display:inline-block; width:10px; height:20px; margin-right: 5px; padding: 3px 5px; background-color:#fff; color:#000; -webkit-box-shadow: 1px 1px 1px 0 #6d6d6d; -moz-box-shadow: 1px 1px 1px 0px #6d6d6d; box-shadow: 1px 1px 1px 0 #6d6d6d; }
+.job_galeria .nivo-controlNav a.active { background-color:#F7CA2F; }
+
+.job_galeria .nivo-directionNav a { font-weight:bold; padding: 5px; background-color:#F7CA2F; color:#fff; }
+.job_galeria .nivo-directionNav a:hover { color:#fff; }
 
 
 /* ******* 
